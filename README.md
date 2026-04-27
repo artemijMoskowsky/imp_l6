@@ -97,6 +97,13 @@ print("Аптеки що мають препарат:", ", ".join(find_available
 
 ---
 
+## Налаштування Git-Hook
+``` bash
+  pip install -r requirements.txt
+  pre-commit install
+```
+
+
 ## Нотатки
 
 * `find_available_medicines` - Функція для визначеня у яких аптеках є препарат. Повертає список назв аптек.

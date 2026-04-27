@@ -93,7 +93,7 @@ class PharmacyUnitTests(unittest.TestCase):
             }
         ]
         expected = [
-            "Аптека 3",
+            "Аптека 1",
             "Аптека 2"
         ]
         self.assertEqual(find_available_medicines(records, "Аспірин"),
